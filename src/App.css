@@ -1,0 +1,331 @@
+
+.main-section {
+  height: 100vh;
+  background-image: url('./backgrounds/kobe_main.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-color: black;
+}
+
+.about-section {
+  height: 100vh;
+  background-image: url('./backgrounds/kobe_about.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-color: black;
+}
+
+.accomplishments-section {
+  height: 100vh;
+  background-image: url('./backgrounds/kobe_accomplishments.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 1;
+  background-color: black;
+}
+
+.wisdom-section {
+  height: 100vh;
+  background-image: url("./backgrounds/kobe_wisdom.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: left;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  background-size: contain;
+  background-color: black;
+}
+
+.gigi-section {
+  height: 100vh;
+  background-image: url("./backgrounds/kobe_gigi2.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  top: 0;
+  left: 0;
+  filter: grayscale(100%) brightness(1.2) contrast(1.5);
+}
+
+.legacy-section {
+  height: 100vh;
+  background-image: url("./backgrounds/kobe_legacy.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-color: black;
+}
+
+.legend-section {
+  height: 100vh;
+  background-image: url("./backgrounds/kobe_legend.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-color: black;
+}
+
+.button{
+  display: inline-block;
+  background-color: #2196f3;
+  position: relative;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+  margin: 45px;
+  font-family: Consolas;
+  }
+
+.button:hover {
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+.quote-card{
+  position: absolute;
+  height: 50%;
+  text-align: center;
+  width: 25%;
+  margin-left: 45%;
+  margin-top: 10%;
+}
+
+.quote-text {
+  text-align: center;
+  font-family: Consolas;
+  color: white;
+  font-size: 20px;
+}
+
+.about-card{
+  height: 65%;
+  width: 40%;
+  margin-left: 55%;
+  margin-top: 5%;
+  border-style: solid;
+  border-width: 15px;
+  border-color: white;
+  box-shadow: 0 0 10px white, 0 0 40px whitesmoke, 0 0 80px antiquewhite;
+  text-align: center;
+}
+
+.gigi-about-card{
+  height: 65%;
+  width: 40%;
+  margin: auto;
+  position: absolute;
+  border-style: solid;
+  top: 0; bottom: 0;
+  left: 55%; right: 0;
+  border-width: 15px;
+  border-color: white;
+  box-shadow: 0 0 10px white, 0 0 40px whitesmoke, 0 0 80px antiquewhite;
+  text-align: center;
+
+}
+
+h1{
+  color: white;
+  font-family: Arial;
+  font-size: 44px;
+}
+
+h2{
+  color: white;
+  font-family: Consolas;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+h4{
+  color: darkgray;
+  font-family: Consolas;
+  font-size: 24px;
+}
+
+h5{
+    color: whitesmoke;
+    font-family: Consolas;
+}
+
+p{
+  color: white;
+}
+
+.about-text{
+  color: white;
+  font-family: Consolas;
+  font-size: 22px;
+  padding: 0;
+}
+
+.accom{
+  position: relative;
+  top: 20%;
+  bottom: 20%;
+  height: 100%;
+  width: 100%;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+}
+
+.accomRight{
+  position: absolute;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  box-shadow: 0 0 10px white, 0 0 40px whitesmoke, 0 0 80px antiquewhite;
+  margin: auto;
+  width: 17%;
+  height: 80%;
+  top: 0; bottom: 0;
+  left: 50%; right: 0;
+}
+
+.accomLeft{
+  position: absolute;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  box-shadow: 0 0 10px white, 0 0 40px whitesmoke, 0 0 80px antiquewhite;
+  margin: auto;
+  width: 17%;
+  height: 80%;
+  top: 0; bottom: 0;
+  left: -50%; right: 0;
+}
+
+.main-quote{
+  width: 50%;
+  height: 45%;
+  top: 50%; bottom: 0;
+  left: 0; right: 0;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  font-size: 24px;
+  font-family: italianno;
+  font-weight: normal;
+  font-style: normal;
+  opacity: 0.7;
+  background-color: black;
+  box-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
+}
+
+.quote{
+  color: white;
+  font-family: italianno;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.something popup-button{
+  display: inline-block;
+  background-color: goldenrod;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+  margin: 45px;
+  font-family: Consolas;
+}
+
+.popup-button:hover{
+  color: darkgoldenrod;
+  background: goldenrod;
+  box-shadow: 0 0 10px goldenrod, 0 0 40px goldenrod, 0 0 80px goldenrod;
+}
+
+.close-button{
+  display: inline-block;
+  background-color: goldenrod;
+  position: relative;
+  border: none;
+  color: white;
+  padding: 7.5px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  overflow: hidden;
+  transition: 0.2s;
+  margin: 22px;
+  font-family: Consolas;
+}
+
+button{
+  ;
+  display: inline-block;
+  background-color: goldenrod;
+  border: none;
+  color: white;
+  padding: 5px 12px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  overflow: hidden;
+  transition: 0.2s;
+  margin: 10px;
+  font-family: Consolas;
+}
+
+.close-button:hover{
+  color: darkgoldenrod;
+  background: goldenrod;
+  box-shadow: 0 0 10px goldenrod, 0 0 40px goldenrod, 0 0 80px goldenrod;
+}
+
+.legacy-button-grid{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  padding: 7.5px 16px;
+}
