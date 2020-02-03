@@ -126,7 +126,8 @@
   text-align: center;
   font-family: Consolas;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
+  font-style: italic;
 }
 
 .about-card{
@@ -269,7 +270,7 @@ p{
   display: inline-block;
   background-color: goldenrod;
   border: none;
-  color: white;
+  color: black;
   padding: 10px 24px;
   text-align: center;
   text-transform: uppercase;
@@ -294,7 +295,7 @@ p{
   background-color: goldenrod;
   position: relative;
   border: none;
-  color: white;
+  color: black;
   padding: 7.5px 16px;
   text-align: center;
   text-transform: uppercase;
@@ -313,7 +314,7 @@ button{
   display: inline-block;
   background-color: goldenrod;
   border: none;
-  color: white;
+  color: black;
   padding: 5px 12px;
   text-align: center;
   text-transform: uppercase;
@@ -339,6 +340,7 @@ button{
   position: relative;
   display: inline-block;
   padding: 7.5px 16px;
+  top: 4%;
 }
 
 .signwrapper{
@@ -355,6 +357,17 @@ button{
 }
 
 .legend-sign{
+  opacity: 0.1;
+  font-family: Arial;
+  font-size: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.legend-sign:hover{
+  opacity: 1;
+  color: white;
   font-family: Arial;
   font-size: 80px;
   font-weight: bold;
