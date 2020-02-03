@@ -1,12 +1,15 @@
 import React, {Component} from "react";
+import LegendSign from "../components/LegendSign";
 
-class Legend extends Component{
-    state={};
+class Legend extends Component {
+    state = {};
 
     render() {
-        return(
+        return (
             <div className="legend-section" name="legend-section">
-                <p>Rest Easy Legend</p>
+                <div className="signwrapper">
+                    <LegendSign/>
+                </div>
             </div>
         )
     }

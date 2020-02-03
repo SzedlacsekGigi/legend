@@ -1,11 +1,19 @@
 import React, {Component} from "react";
+import LegacyButton from "./LegacyButton";
 
 class GigiAboutCard extends Component {
-    state = {};
+    state = {
+        showPopup: false
+    };
+
+    togglePopup() {
+        this.setState({showPopup: !this.state.showPopup});
+    }
 
     render() {
         return (
             <div className="gigi-about-card">
+                <LegacyButton videoLink={{button: "Warm-Me", link: "https://www.youtube.com/embed/UUVubfIY2ns"}}/>
                 <h1>Gianna Maria Onore Bryant</h1>
                 <h4>2006.05.01. - 2020.01.26.</h4>
                 <h2>"The best thing that happens is when we go out and fans come up to you, and

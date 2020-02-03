@@ -7,9 +7,7 @@ class Gigi extends Component {
     render() {
         return (
             <div className="gigi-section" name="gigi-section">
-                <div className="centerWrapper">
                     <GigiAboutCard/>
-                </div>
             </div>
         )
     }
